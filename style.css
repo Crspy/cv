@@ -1,0 +1,19 @@
+table {
+    border-spacing: 0.5em 0.5em;
+}
+
+a[href^="https"]::before {
+  content: "🔗 ";
+}
+
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+a[href^="tel"]::before {
+  content: "📞 ";
+}
+
+li {
+    padding-bottom: 0.5rem;
+}
