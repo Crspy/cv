@@ -37,6 +37,7 @@ hr {
   margin: 100px auto;
 }
 
+
 a{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -64,15 +65,16 @@ a:hover {
 }
 
 .skill-row {
-  width: 50%;
+  width: 60%;
   margin: 100px auto 100px auto;
   text-align: left;
+  overflow: auto;
 }
 .pro {
   text-decoration: underline;
 }
 .intro {
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 .contact-message {
